@@ -2,10 +2,11 @@
 ;;; a universal experience of coding in TypeScript
 
 ;;;: Dependencies
-;; (require 'etss)
-;; (require 'company-etss)
-;; (require 'flymake-etss)
-;; (require 'typescript)
+(require 'etss)
+(require 'company-etss)
+(require 'flymake-etss)
+
+(require 'typescript)
 
 (define-minor-mode etss-ide-mode
   "Minor mode for TypeScript coding in Emacs."
